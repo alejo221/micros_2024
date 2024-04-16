@@ -1,0 +1,1 @@
+podman run -dt -e MYSQL_ROOT_PASSWORD=dOkskl85 -e  MYSQL_PASSWORD=mstuto967 -e MYSQL_USER=orderservice -e MYSQL_DATABASE=order-service --name mysql_order_service -p 3306:3306 mysql:latest

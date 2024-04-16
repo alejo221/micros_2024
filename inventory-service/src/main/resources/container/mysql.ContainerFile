@@ -1,0 +1,2 @@
+//Usar si solo se tiene por primera vez de lo contrario el contenedor estara siendo usado por otro mysql
+podman run -dt -e MYSQL_ROOT_PASSWORD=dOkskl85 -e  MYSQL_PASSWORD=mstuto967 -e MYSQL_USER=inventoryservice -e MYSQL_DATABASE=inventory-service --name mysql_inventory_service -p 3306:3306 mysql:latest

@@ -1,0 +1,1 @@
+podman run -p 8181:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=gdsgknjla418-* quay.io/keycloak/keycloak:24.0.2 start-dev

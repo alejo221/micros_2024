@@ -1,0 +1,1 @@
+podman run --detach --name product-service -p 27017:27017 docker.io/mongodb/mongodb-community-server:latest
