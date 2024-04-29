@@ -1,1 +1,6 @@
 http://localhost:8181/realms/springboot-excercise-realm
+
+
+
+podman build -t apigateway-podman-docker .
+podman build -t apigateway-layered-podman -f Dockerfile.layered .

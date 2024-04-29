@@ -21,7 +21,7 @@ public class InventoryService {
     public List<InventoryResponse> isInStock(List<String> skuCode) throws InterruptedException {
         log.info("Checking Inventory");
         log.info("Start");
-        Thread.sleep(10000); //Solo para probar circuit breaker
+       // Thread.sleep(10000); //Solo para probar circuit breaker
         log.info("End");
         return inventoryRepository.findBySkuCodeIn(skuCode).stream()
                 .map(inventory ->
